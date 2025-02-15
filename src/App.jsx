@@ -1,7 +1,8 @@
+import { Title } from './components/Title'
 
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <Title titleText='Hello World!'/>
   )
 }
 
