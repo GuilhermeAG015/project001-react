@@ -1,8 +1,12 @@
-import { Title } from './components/Title'
+import { Header } from './components/Header'
+import './styles.css'
+
 
 function App() {
   return (
-    <Title titleText='Hello World!'/>
+    <>
+      <Header />
+    </>
   )
 }
 
