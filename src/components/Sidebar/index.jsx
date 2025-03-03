@@ -21,7 +21,7 @@ export function Sidebar() {
         <span>Web Developer</span>
       </div>
       <footer>
-        <a href='#'>
+        <a href='/'>
           <PencilLine size={20} />
           Editar seu perfil
         </a>
