@@ -13,4 +13,4 @@ yarn ou npm i
 
 &&
 
-# yarn dev
+# yarn dev ou npm run dev
