@@ -18,7 +18,7 @@ const posts = [
       { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
       { type: 'link', content: 'jane.design/doctorcare' },
     ],
-    publishedAt: newDate('2025-03-11'),
+    publishedAt: new Date('2025-03-11'),
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const posts = [
       { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
       { type: 'link', content: 'jane.design/doctorcare' },
     ],
-    publishedAt: newDate('2025-03-10'),
+    publishedAt: new Date('2025-03-10'),
   },
 ]
 
@@ -53,10 +53,6 @@ function App() {
               />
             )
           })}
-          <Post 
-            author="Guilherme Alexandre"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore commodi dolorum assumenda temporibus debitis. Aliquid similique nesciunt quo quia neque repellendus nobis suscipit, totam harum voluptatum velit laboriosam dolore ex!"
-          />
         </main>
       </div>
     </div>
